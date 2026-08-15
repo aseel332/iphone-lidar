@@ -1,0 +1,104 @@
+{
+  "schema": "rooflib/transform/1",
+  "description": "ARKit mesh -> georeferenced ENU / UTM",
+  "source_frame": {
+    "name": "ARKit world (gravity-aligned)",
+    "axes": "x right, y up (anti-gravity), z toward viewer",
+    "units": "metres"
+  },
+  "axis_map_arkit_to_enu": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      -1
+    ],
+    [
+      0,
+      1,
+      0
+    ]
+  ],
+  "axis_map_note": "east=+x, north=-z, up=+y; determinant +1 (chirality preserved). Using north=+z mirrors the model and flips every azimuth.",
+  "solution": {
+    "yaw_deg_grid": 55.38642567769182,
+    "scale": 1.0060014570948632,
+    "translation_e": 250861.5634503021,
+    "translation_n": 2546650.9074586174,
+    "translation_z": 81.00990230056306,
+    "pivot_pre_enu": [
+      0.3445961381394288,
+      -1.0376421113100571,
+      -1.3213051575557966
+    ]
+  },
+  "matrix_arkit_to_utm_4x4": [
+    [
+      0.5714478039486113,
+      0.0,
+      0.8279410238895627,
+      250860.50742512365
+    ],
+    [
+      0.8279410238895627,
+      0.0,
+      -0.5714478039486113,
+      2546651.2151116435
+    ],
+    [
+      0.0,
+      1.0060014570948632,
+      0.0,
+      82.33913721433115
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "local_enu": {
+    "origin_utm": [
+      250861.59170188277,
+      2546650.898312629,
+      0.0
+    ],
+    "note": "local = utm - origin_utm; keeps float32 viewers precise"
+  },
+  "crs": {
+    "horizontal_wkt": "PROJCS[\"WGS 84 / UTM zone 43N\",GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"latitude_of_origin\",0],PARAMETER[\"central_meridian\",75],PARAMETER[\"scale_factor\",0.9996],PARAMETER[\"false_easting\",500000],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH],AUTHORITY[\"EPSG\",\"32643\"]]",
+    "horizontal_epsg": 32643,
+    "vertical_datum": "UNDECLARED in source DSM -- elevations are carried through as-is from dsm.tif. Could be ellipsoidal or a geoid/MSL height. Does not affect tilt, azimuth or yield."
+  },
+  "north": {
+    "grid_convergence_deg": -0.9506164463718423,
+    "relation": "true_azimuth = grid_azimuth + grid_convergence_deg",
+    "note": "all exported azimuths are TRUE north referenced"
+  },
+  "diagnostics": {
+    "footprint_iou": 0.9063918060417477,
+    "footprint_mesh_m2": 144.04000000000002,
+    "footprint_target_m2": 150.04000000000002,
+    "height_residual_median_m": 0.30702916988663986,
+    "height_residual_mad_m": 0.5175887458464246,
+    "deck_elevation_m": 81.00730960007753,
+    "dsm_roof_median_m": 80.92121887207031,
+    "chirality_verdict": "right_handed",
+    "chirality_margin": 0.09725772946787514,
+    "yaw_180_overlap_margin": 0.006043956043955689,
+    "yaw_180_height_margin": 1.2723042710440051,
+    "refine_cost_start": 2.220741185861515,
+    "refine_cost_final": 0.6505003297088361
+  },
+  "notes": [
+    "building_mask overshoots the roof; the alignment target is mask AND DSM>roof-2m.",
+    "The 180 deg yaw ambiguity was resolved by superstructure height correlation, not by footprint overlap, which is near-degenerate on this footprint.",
+    "Mesh and DSM disagree on superstructure height by 1.2-1.5 m; the mesh is used as authoritative for on-roof object geometry and the DSM for georeferencing and off-building context.",
+    "DSM vertical datum is undeclared in the source file."
+  ]
+}

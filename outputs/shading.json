@@ -1,0 +1,352 @@
+{
+  "horizon_profile_from_deck_centre": [
+    {
+      "true_azimuth_deg": 359.05,
+      "horizon_elev_deg": 5.356,
+      "distance_m": 4.5,
+      "obstruction_height_m": 0.422
+    },
+    {
+      "true_azimuth_deg": 9.05,
+      "horizon_elev_deg": 4.645,
+      "distance_m": 4.5,
+      "obstruction_height_m": 0.366
+    },
+    {
+      "true_azimuth_deg": 19.05,
+      "horizon_elev_deg": 4.625,
+      "distance_m": 4.0,
+      "obstruction_height_m": 0.324
+    },
+    {
+      "true_azimuth_deg": 29.05,
+      "horizon_elev_deg": 3.985,
+      "distance_m": 4.0,
+      "obstruction_height_m": 0.279
+    },
+    {
+      "true_azimuth_deg": 39.05,
+      "horizon_elev_deg": 3.68,
+      "distance_m": 4.0,
+      "obstruction_height_m": 0.257
+    },
+    {
+      "true_azimuth_deg": 49.05,
+      "horizon_elev_deg": 5.008,
+      "distance_m": 4.0,
+      "obstruction_height_m": 0.351
+    },
+    {
+      "true_azimuth_deg": 59.05,
+      "horizon_elev_deg": 15.86,
+      "distance_m": 6.0,
+      "obstruction_height_m": 1.705
+    },
+    {
+      "true_azimuth_deg": 69.05,
+      "horizon_elev_deg": 23.515,
+      "distance_m": 3.5,
+      "obstruction_height_m": 1.523
+    },
+    {
+      "true_azimuth_deg": 79.05,
+      "horizon_elev_deg": 39.41,
+      "distance_m": 3.5,
+      "obstruction_height_m": 2.876
+    },
+    {
+      "true_azimuth_deg": 89.05,
+      "horizon_elev_deg": 43.46,
+      "distance_m": 3.0,
+      "obstruction_height_m": 2.843
+    },
+    {
+      "true_azimuth_deg": 99.05,
+      "horizon_elev_deg": 43.624,
+      "distance_m": 3.0,
+      "obstruction_height_m": 2.859
+    },
+    {
+      "true_azimuth_deg": 109.05,
+      "horizon_elev_deg": 44.187,
+      "distance_m": 2.5,
+      "obstruction_height_m": 2.43
+    },
+    {
+      "true_azimuth_deg": 119.05,
+      "horizon_elev_deg": 44.859,
+      "distance_m": 2.5,
+      "obstruction_height_m": 2.488
+    },
+    {
+      "true_azimuth_deg": 129.05,
+      "horizon_elev_deg": 44.362,
+      "distance_m": 2.5,
+      "obstruction_height_m": 2.445
+    },
+    {
+      "true_azimuth_deg": 139.05,
+      "horizon_elev_deg": 41.382,
+      "distance_m": 3.0,
+      "obstruction_height_m": 2.643
+    },
+    {
+      "true_azimuth_deg": 149.05,
+      "horizon_elev_deg": 40.351,
+      "distance_m": 3.0,
+      "obstruction_height_m": 2.549
+    },
+    {
+      "true_azimuth_deg": 159.05,
+      "horizon_elev_deg": 37.28,
+      "distance_m": 3.0,
+      "obstruction_height_m": 2.284
+    },
+    {
+      "true_azimuth_deg": 169.05,
+      "horizon_elev_deg": 33.326,
+      "distance_m": 3.5,
+      "obstruction_height_m": 2.301
+    },
+    {
+      "true_azimuth_deg": 179.05,
+      "horizon_elev_deg": 21.659,
+      "distance_m": 3.0,
+      "obstruction_height_m": 1.191
+    },
+    {
+      "true_azimuth_deg": 189.05,
+      "horizon_elev_deg": 7.268,
+      "distance_m": 6.0,
+      "obstruction_height_m": 0.765
+    },
+    {
+      "true_azimuth_deg": 199.05,
+      "horizon_elev_deg": 6.007,
+      "distance_m": 5.5,
+      "obstruction_height_m": 0.579
+    },
+    {
+      "true_azimuth_deg": 209.05,
+      "horizon_elev_deg": 7.275,
+      "distance_m": 5.5,
+      "obstruction_height_m": 0.702
+    },
+    {
+      "true_azimuth_deg": 219.05,
+      "horizon_elev_deg": 7.475,
+      "distance_m": 5.5,
+      "obstruction_height_m": 0.722
+    },
+    {
+      "true_azimuth_deg": 229.05,
+      "horizon_elev_deg": 7.668,
+      "distance_m": 6.0,
+      "obstruction_height_m": 0.808
+    },
+    {
+      "true_azimuth_deg": 239.05,
+      "horizon_elev_deg": 1.56,
+      "distance_m": 6.5,
+      "obstruction_height_m": 0.177
+    },
+    {
+      "true_azimuth_deg": 249.05,
+      "horizon_elev_deg": 2.857,
+      "distance_m": 7.0,
+      "obstruction_height_m": 0.349
+    },
+    {
+      "true_azimuth_deg": 259.05,
+      "horizon_elev_deg": 3.017,
+      "distance_m": 6.0,
+      "obstruction_height_m": 0.316
+    },
+    {
+      "true_azimuth_deg": 269.05,
+      "horizon_elev_deg": 3.42,
+      "distance_m": 5.0,
+      "obstruction_height_m": 0.299
+    },
+    {
+      "true_azimuth_deg": 279.05,
+      "horizon_elev_deg": 3.127,
+      "distance_m": 4.0,
+      "obstruction_height_m": 0.218
+    },
+    {
+      "true_azimuth_deg": 289.05,
+      "horizon_elev_deg": 3.732,
+      "distance_m": 4.0,
+      "obstruction_height_m": 0.261
+    },
+    {
+      "true_azimuth_deg": 299.05,
+      "horizon_elev_deg": 5.872,
+      "distance_m": 4.0,
+      "obstruction_height_m": 0.411
+    },
+    {
+      "true_azimuth_deg": 309.05,
+      "horizon_elev_deg": 8.896,
+      "distance_m": 4.0,
+      "obstruction_height_m": 0.626
+    },
+    {
+      "true_azimuth_deg": 319.05,
+      "horizon_elev_deg": 9.618,
+      "distance_m": 4.5,
+      "obstruction_height_m": 0.763
+    },
+    {
+      "true_azimuth_deg": 329.05,
+      "horizon_elev_deg": 8.201,
+      "distance_m": 4.5,
+      "obstruction_height_m": 0.649
+    },
+    {
+      "true_azimuth_deg": 339.05,
+      "horizon_elev_deg": 2.958,
+      "distance_m": 5.5,
+      "obstruction_height_m": 0.284
+    },
+    {
+      "true_azimuth_deg": 349.05,
+      "horizon_elev_deg": 4.964,
+      "distance_m": 5.0,
+      "obstruction_height_m": 0.434
+    }
+  ],
+  "neighbour_sectors": [
+    {
+      "sector_true_az_from": 359.05,
+      "sector_true_az_to": 29.05,
+      "max_elev_m": 79.17,
+      "above_deck_m": -1.84,
+      "distance_at_max_m": 24.8,
+      "elev_angle_deg": 0.0,
+      "px_above_deck": 0
+    },
+    {
+      "sector_true_az_from": 29.05,
+      "sector_true_az_to": 59.05,
+      "max_elev_m": 82.49,
+      "above_deck_m": 1.48,
+      "distance_at_max_m": 32.0,
+      "elev_angle_deg": 2.65,
+      "px_above_deck": 3754
+    },
+    {
+      "sector_true_az_from": 59.05,
+      "sector_true_az_to": 89.05,
+      "max_elev_m": 84.46,
+      "above_deck_m": 3.46,
+      "distance_at_max_m": 43.2,
+      "elev_angle_deg": 4.57,
+      "px_above_deck": 19642
+    },
+    {
+      "sector_true_az_from": 89.05,
+      "sector_true_az_to": 119.05,
+      "max_elev_m": 76.88,
+      "above_deck_m": -4.12,
+      "distance_at_max_m": 45.2,
+      "elev_angle_deg": 0.0,
+      "px_above_deck": 0
+    },
+    {
+      "sector_true_az_from": 119.05,
+      "sector_true_az_to": 149.05,
+      "max_elev_m": 82.94,
+      "above_deck_m": 1.93,
+      "distance_at_max_m": 33.5,
+      "elev_angle_deg": 3.29,
+      "px_above_deck": 5899
+    },
+    {
+      "sector_true_az_from": 149.05,
+      "sector_true_az_to": 179.05,
+      "max_elev_m": 82.84,
+      "above_deck_m": 1.83,
+      "distance_at_max_m": 34.6,
+      "elev_angle_deg": 3.03,
+      "px_above_deck": 8287
+    },
+    {
+      "sector_true_az_from": 179.05,
+      "sector_true_az_to": 209.05,
+      "max_elev_m": 82.0,
+      "above_deck_m": 0.99,
+      "distance_at_max_m": 42.7,
+      "elev_angle_deg": 1.33,
+      "px_above_deck": 2638
+    },
+    {
+      "sector_true_az_from": 209.05,
+      "sector_true_az_to": 239.05,
+      "max_elev_m": 81.4,
+      "above_deck_m": 0.4,
+      "distance_at_max_m": 39.9,
+      "elev_angle_deg": 0.57,
+      "px_above_deck": 691
+    },
+    {
+      "sector_true_az_from": 239.05,
+      "sector_true_az_to": 269.05,
+      "max_elev_m": 79.89,
+      "above_deck_m": -1.12,
+      "distance_at_max_m": 23.7,
+      "elev_angle_deg": 0.0,
+      "px_above_deck": 0
+    },
+    {
+      "sector_true_az_from": 269.05,
+      "sector_true_az_to": 299.05,
+      "max_elev_m": 81.96,
+      "above_deck_m": 0.96,
+      "distance_at_max_m": 21.4,
+      "elev_angle_deg": 2.56,
+      "px_above_deck": 2782
+    },
+    {
+      "sector_true_az_from": 299.05,
+      "sector_true_az_to": 329.05,
+      "max_elev_m": 81.3,
+      "above_deck_m": 0.29,
+      "distance_at_max_m": 17.8,
+      "elev_angle_deg": 0.93,
+      "px_above_deck": 10
+    },
+    {
+      "sector_true_az_from": 329.05,
+      "sector_true_az_to": 359.05,
+      "max_elev_m": 74.17,
+      "above_deck_m": -6.84,
+      "distance_at_max_m": 47.8,
+      "elev_angle_deg": 0.0,
+      "px_above_deck": 0
+    }
+  ],
+  "solar_geometry": {
+    "summer_solstice": {
+      "solar_declination_deg": 23.44,
+      "solar_noon_elevation_deg": 89.57,
+      "shadow_length_per_m": 0.008
+    },
+    "equinox": {
+      "solar_declination_deg": 0.0,
+      "solar_noon_elevation_deg": 66.99,
+      "shadow_length_per_m": 0.425
+    },
+    "winter_solstice": {
+      "solar_declination_deg": -23.44,
+      "solar_noon_elevation_deg": 43.55,
+      "shadow_length_per_m": 1.052
+    },
+    "latitude_deg": 23.009617,
+    "longitude_deg": 72.569281,
+    "hemisphere": "northern",
+    "optimal_fixed_tilt_deg_rule_of_thumb": 20.0,
+    "optimal_azimuth_true_deg": 180.0
+  }
+}

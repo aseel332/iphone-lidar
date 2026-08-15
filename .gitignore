@@ -1,0 +1,18 @@
+# Local Python environment
+.venv/
+
+# Python bytecode
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Windows Explorer download metadata (not project data)
+*:Zone.Identifier
+
+# Working notes not meant for the public repo
+PlanA.md
+insights.md
+AGENTS.md
+CLAUDE.md

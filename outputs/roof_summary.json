@@ -1,0 +1,57 @@
+{
+  "deck_elevation_m": 81.007,
+  "building_height_above_local_ground_m": 17.39,
+  "gross_deck_m2": 96.29,
+  "usable_deck_m2": 33.17,
+  "n_planes": 67,
+  "n_objects": 11,
+  "terraces": [
+    {
+      "plane_id": 0,
+      "z": 81.007,
+      "height_above_deck_m": 0.0,
+      "area_m2": 87.67,
+      "n_objects_on_it": 5
+    },
+    {
+      "plane_id": 12,
+      "z": 82.088,
+      "height_above_deck_m": 1.081,
+      "area_m2": 4.48,
+      "n_objects_on_it": 2
+    },
+    {
+      "plane_id": 18,
+      "z": 83.471,
+      "height_above_deck_m": 2.463,
+      "area_m2": 3.81,
+      "n_objects_on_it": 2
+    },
+    {
+      "plane_id": 4,
+      "z": 83.763,
+      "height_above_deck_m": 2.756,
+      "area_m2": 8.09,
+      "n_objects_on_it": 1
+    },
+    {
+      "plane_id": 2,
+      "z": 83.992,
+      "height_above_deck_m": 2.985,
+      "area_m2": 18.8,
+      "n_objects_on_it": 1
+    },
+    {
+      "plane_id": 11,
+      "z": 85.736,
+      "height_above_deck_m": 4.729,
+      "area_m2": 4.77,
+      "n_objects_on_it": 0
+    }
+  ],
+  "location": {
+    "latitude": 23.009616753884572,
+    "longitude": 72.56928063769755,
+    "epsg": 32643
+  }
+}
